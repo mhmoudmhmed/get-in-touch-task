@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link rel="stylesheet" href="./css/hover-min.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>GET IN TOUCH</title>
+</head>
+<body>
+  <div class="viewport">
+    <header class="header">
+      <!--Navbar-->
+      <nav id="nav" class="nav" role="navigation">
+        <ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
+          <li class="nav__item"><a href="#" class="nav__link">PROJECTS</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">SERVICES</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">ABOUT</a></li>
+        </ul>
+        <a href="#nav" class="nav__toggle" role="button" aria-controls="menu">
+          <svg class="menuicon" width="50" height="50" viewBox="0 0 50 50">
+            <title>Toggle Menu</title>
+            <g>
+              <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
+              <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+              <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+              <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
+              <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+            </g>
+          </svg>
+        </a>
+      </nav>
+      <div class="logo">
+        <img />
+      </div>
+      <button class="btn hvr-backward">
+        <span>Get Quotation</span>
+      </button>
+    </header>
+    <!--Contect -->
+    <div class="contact1">
+      <h1 class="contact1-title animate__animated animate__zoomIn">
+        Get in touch
+      </h1>
+      <div class="container-contact1">
+        <form class="contact1-form animate__animated animate__fadeInDown">
+          <div class="wrap-input1 validate-input" data-validate = "Name is required">
+            <input class="input1" type="text" name="name" placeholder="Name">
+            <span class="shadow-input1"></span>
+          </div>
+  
+          <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+            <input class="input1" type="email" name="email" placeholder="Your email address">
+            <span class="shadow-input1"></span>
+          </div>
+  
+          <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+            <input class="input1" type="number" name="number" placeholder="Your content no">
+            <span class="shadow-input1"></span>
+          </div>
+  
+          <div class="wrap-input1 validate-input" data-validate = "Message is required">
+            <textarea class="input1" name="message" placeholder="Message"></textarea>
+            <span class="shadow-input1"></span>
+          </div>
+  
+          <div class="container-contact1-form-btn">
+            <button class="contact1-form-btn btn hvr-forward">
+              <span>
+                SEND
+              </span>
+            </button>
+          </div>
+        </form>
+        <div class="contact1-list animate__animated animate__jackInTheBox">
+          <ul class="list">
+            <li><h3>head office</h3></li>
+            <li>P. O. Box 90981 Riyadh 11623 KSA</li>
+            <li>Tel, +9661147033</li>
+            <li>Fax, +966114703359</li>
+            <li>C. R. +966114359</li>
+          </ul>
+          <ul class="icon-list">
+            <li>
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts files -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
