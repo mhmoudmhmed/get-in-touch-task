@@ -47,6 +47,13 @@ body {
 .header .btn {
   margin-top: 1rem;
 }
+.header .logo {
+  display: flex;
+  justify-content: center;
+}
+.header .logo img {
+  width: 60%;
+}
 /* navbar style */
 .nav {position: relative;}
 .nav__toggle {
@@ -300,6 +307,13 @@ textarea.input1 + .shadow-input1 {border-radius: 25px;}
     font-size: 12px;
     margin-top: .6rem;
   }
+  .header .logo {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 23%;
+  }
+  .header .logo img {width: 50%;}
   .contact1 {padding-top: 40px;}
   .container-contact1 {padding: 35px 15px 88px 15px;}
   .contact1-title {font-size: 1.5rem;}
